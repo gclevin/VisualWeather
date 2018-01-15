@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,8 @@
     "pug": "^2.0.0-rc.4",
     "request": "^2.83.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
   "description": ""
 }
