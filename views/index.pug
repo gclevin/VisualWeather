@@ -1,7 +1,14 @@
 html
   head
+    style
+      include index.css
     title= title
   body
     h1= message
+    canvas(
+        id='canvas'
+        width='520' 
+        height='500'
+    )
     script(src='/js/script.js')
 
