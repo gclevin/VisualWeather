@@ -39,7 +39,7 @@
   color:#313131;
   font-size:50px;
   position: absolute;
-  -webkit-animation:colorchange 15s infinite alternate;      
+  -webkit-animation:colorchange 9s infinite alternate;      
 }
 
 @-webkit-keyframes colorchange {
