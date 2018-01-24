@@ -20,7 +20,8 @@ app.listen(app.get('port'), function() {
 
 app.get('/', function (req, res) {
   console.log('GET');
-  res.render('index', {title: 'Visual Weather', message: 'Loading...'});
+  res.sendFile(path.join(__dirname+'/views/index.html'));
+  //res.render('index', {title: 'Visual Weather', message: 'Loading...'});
 });
 
 app.post('/', function (req, res) {
