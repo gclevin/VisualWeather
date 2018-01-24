@@ -26,3 +26,44 @@
  font-size:1.5rem;
  line-height:1
 }
+
+.center {    
+  margin: 0 auto;   
+ }
+
+
+.loading { 
+  width:100%;   
+  margin: 0 auto;
+  text-align: center;
+  color:#313131;
+  font-size:50px;
+  position: absolute;
+  -webkit-animation:colorchange 15s infinite alternate;      
+}
+
+@-webkit-keyframes colorchange {
+  0% { 
+    color: #040303;
+  }
+      
+  20% {       
+    color: #3a4e48;
+  }
+      
+  40% {
+    color: #6a7b76;
+  } 
+  
+  60% { 
+    color: #8b9d83;
+  }
+      
+  80% {  
+    color: #313e50;
+  }
+      
+  100% {
+    color: #beb0a7;
+  }
+}

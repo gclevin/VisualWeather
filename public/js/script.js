@@ -40,7 +40,7 @@ navigator.geolocation.getCurrentPosition(function(position) {
   				}
 			};			
 
-		document.getElementsByTagName('h1')[0].style.display = 'none';
+		document.getElementsByTagName('p')[0].style.display = 'none';
 		new Chartist.Line('.ct-chart', chartData, options);
 	});
 });
